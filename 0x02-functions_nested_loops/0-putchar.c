@@ -1,20 +1,18 @@
-#include "main.h"
+include "main.h"
 
 /**
- * main - Entry point
- * Return: Always 0
- */
-
-int  main(void)
+* main - entry block
+*
+* Return: 0
+**/
+int main(void)
 {
- _putchar('_');
- _putchar('p');
- _putchar('u');
- _putchar('t');
- _putchar('c');
- _putchar('h');
- _putchar('a');
- _putchar('r');
- _putchar('\n');
-  return (0);
+	char x[] = {'_', 'p', 'u', 't', 'c', 'h', 'a', 'r'};
+	int i;
+
+	for (i = 0; i <= 7; i++)
+	{
+		_putchar(x[i]);
+	} putchar('\n');
+	return (0);
 }
