@@ -1,16 +1,12 @@
-#include "main.h"
-#include <stdio.h>
-
 /**
- * main - check the code
+ * add - odds two integers
  *
- * Return: Always 0.
+ * @num1: first integer
+ * @num2: second integer
+ *
+ * Return: sum of @num1 and @num2
  */
-int main(void)
+int add(int num1, int num2)
 {
-int n;
-
-n = add(89, 9);
-printf("%d\n", n);
-return (0);
+	return (num1 + num2);
 }
