@@ -5,8 +5,10 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_numbers(void);
 {
+int main(void)
+
 print_numbers();
 return (0);
 }
