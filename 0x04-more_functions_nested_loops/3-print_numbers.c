@@ -1,16 +1,12 @@
-include "main.h"
+#include "main.h"
+
 /**
- * print_numbers - checks for checks for a digit (0 through 9).
+ * main - check the code
  *
  * Return: Always 0.
  */
-void print_numbers(void)
+int main(void)
 {
-int c;
-
-for (c = 48; c < 58; c++)
-{
-_putchar(c);
-}
-_putchar('\n');
+print_numbers();
+return (0);
 }
