@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * prints_numbers - print the number since 0 up to 9
+ * prints_numbers - print the number from 0 up to 9
  * Return: The number since 0 up to 9
  */
 
 void print_numbers(void)
 {
-	int x;
+	int i;
 
-	for (x = 0; x <= 9; x++)
+	for (i = 0; i <= 9; i++)
 	{
-		_putchar(x + '0');
+		_putchar(i + '0');
 	}
 	_putchar('\n');
 }
