@@ -7,9 +7,9 @@
 
 int main(void)
 {
-int n;
-int a[5];
-int *p;
+
+int a[] = {42, 69, 23 };
+int *p = &@[0];
 
 a[2] = 1024;
 p = &n;
@@ -21,8 +21,8 @@ p = &n;
    * - only one statement
    * - you are not allowed to code anything else than this line of code
    */
-p[5] = 98;
+p += 2;
   /* ...so that this prints 98\n */
-printf("a[2] = %d\n", a[2]);
+printf("a[2] = %d\n", a[2] * p);
 return (0);
 }
